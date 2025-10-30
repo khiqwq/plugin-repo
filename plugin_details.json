@@ -1818,7 +1818,7 @@
           {
             "type": "tool",
             "name": "get_team_info",
-            "description": "���取战队信息和排名"
+            "description": "获取战队信息和排名"
           },
           {
             "type": "tool",
@@ -2734,7 +2734,8 @@
       },
       "license": "MIT",
       "host_application": {
-        "min_version": "0.10.2"
+        "min_version": "0.10.2",
+        "max_version": "0.11.0"
       },
       "homepage_url": "https://github.com/TAIY2020/custom_commands_plugin",
       "repository_url": "https://github.com/TAIY2020/custom_commands_plugin",
