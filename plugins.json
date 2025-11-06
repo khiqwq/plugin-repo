@@ -238,5 +238,9 @@
   {
     "id": "exynos967.animetrace_plugin",
     "repositoryUrl": "https://github.com/exynos967/animetrace_plugin"
+  },
+  {
+    "id": "magisk317.MaiMBot_LiteratureFeeder",
+    "repositoryUrl": "https://github.com/magisk317/MaiMBot_LiteratureFeeder"
   }
 ]
