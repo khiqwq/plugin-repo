@@ -254,6 +254,10 @@
   {
     "id": "maimai_aivoice_plugin",
     "repositoryUrl": "https://github.com/yuexps/maimai_aivoice_plugin"
+  },
+  {
+    "id": "magisk317.MaiMBot_LiteratureFeeder",
+    "repositoryUrl": "https://github.com/magisk317/MaiMBot_LiteratureFeeder"
   }
 ]
 
