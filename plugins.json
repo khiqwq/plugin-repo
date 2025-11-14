@@ -246,6 +246,10 @@
   {
     "id": "saberlights.lolicon_setu_plugin",
     "repositoryUrl": "https://github.com/saberlights/lolicon-setu-plugin"
+  },
+  {
+    "id": "xuqian13.context_clear_plugin",
+    "repositoryUrl": "https://github.com/xuqian13/context_clear_plugin"
   }
 ]
 
