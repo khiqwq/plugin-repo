@@ -3034,5 +3034,48 @@
         }
       }
     }
+  },
+  {
+    "id": "xuqian13.context_clear_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "context_clear_plugin",
+      "display_name": "上下文清除插件",
+      "version": "1.0.0",
+      "description": "清除对话上下文插件 - 提供命令清除指定聊天的消息历史",
+      "author": {
+        "name": "靓仔",
+        "url": "https://github.com/xuqian13"
+      },
+      "license": "AGPL-v3.0",
+      "host_application": {
+        "min_version": "0.8.0",
+        "max_version": "1.0.0"
+      },
+      "keywords": [
+        "context",
+        "clear",
+        "上下文",
+        "清除"
+      ],
+      "categories": [
+        "Utility",
+        "Management"
+      ],
+      "repository_url": "https://github.com/xuqian13/context_clear_plugin",
+      "dependencies": [],
+      "python_dependencies": [],
+      "config_file": "config.toml",
+      "enabled": true,
+      "components": {
+        "commands": [
+          {
+            "name": "clear_context",
+            "pattern": "^/(clear|清除上下文|清空上下文)",
+            "description": "清除聊天上下文命令"
+          }
+        ]
+      }
+    }
   }
 ]
