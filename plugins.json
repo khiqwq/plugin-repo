@@ -250,6 +250,10 @@
   {
     "id": "xuqian13.context_clear_plugin",
     "repositoryUrl": "https://github.com/xuqian13/context_clear_plugin"
+  },
+  {
+    "id": "maimai_aivoice_plugin",
+    "repositoryUrl": "https://github.com/yuexps/maimai_aivoice_plugin"
   }
 ]
 
