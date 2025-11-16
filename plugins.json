@@ -262,7 +262,11 @@
   {
     "id": "XXXxx7258.nbnhhsh_translate_plugin",
     "repositoryUrl": "https://github.com/XXXxx7258/nbnhhsh_translate_plugin"
-  }
+  },
+  {
+    "id": "saberlights.chat_summary_plugin",
+    "repositoryUrl": "https://github.com/saberlights/chat_summary_plugin"
+  },
 ]
 
 
