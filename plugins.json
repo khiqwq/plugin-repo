@@ -274,6 +274,10 @@
   {
     "id": "Shiroha135.GPT-SoVITS-v2-TTS-Plugin",
     "repositoryUrl": "https://github.com/Shiroha135/GPT-SoVITS-v2-TTS-Plugin"
+  },
+  {
+    "id": "xuqian13.autonomous_planning_plugin",
+    "repositoryUrl": "https://github.com/xuqian13/autonomous_planning_plugin"
   }
 ]
 
