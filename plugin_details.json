@@ -3924,7 +3924,7 @@
     }
   },
   {
-    "id": "SkillfulPainter.repeat_plugin",
+    "id": "SkillfulPainter.reminder_plugin",
     "manifest": {
       "manifest_version": 1,
       "name": "智能提醒插件 (Smart Reminder Plugin)",
