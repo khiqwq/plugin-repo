@@ -278,6 +278,10 @@
   {
     "id": "xuqian13.autonomous_planning_plugin",
     "repositoryUrl": "https://github.com/xuqian13/autonomous_planning_plugin"
+  },
+  {
+    "id": "SkillfulPainter.repeat_plugin",
+    "repositoryUrl": "https://github.com/SkillfulPainter/reminder_plugin"
   }
 ]
 
