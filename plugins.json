@@ -290,6 +290,10 @@
   {
     "id": "Hug_Yo.weather_query_plugin",
     "repositoryUrl": "https://github.com/Hug-Yo/weather_query_plugin"
+  },
+  {
+    "id": "heitiehu-beep.impression_affection_plugin",
+    "repositoryUrl": "https://github.com/heitiehu-beep/impression_affection_plugin"
   }
 ]
 
