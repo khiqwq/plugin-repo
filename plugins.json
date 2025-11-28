@@ -280,6 +280,14 @@
     "repositoryUrl": "https://github.com/xuqian13/autonomous_planning_plugin"
   },
   {
+    "id": "saberlights.smart_segmentation_plugin",
+    "repositoryUrl": "https://github.com/saberlights/smart_segmentation_plugin"
+  },
+  {
+    "id": "SkillfulPainter.reminder_plugin",
+    "repositoryUrl": "https://github.com/SkillfulPainter/reminder_plugin"
+  },
+  {
     "id": "Hug_Yo.weather_query_plugin",
     "repositoryUrl": "https://github.com/Hug-Yo/weather_query_plugin"
   }
