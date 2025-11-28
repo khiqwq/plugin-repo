@@ -278,7 +278,11 @@
   {
     "id": "xuqian13.autonomous_planning_plugin",
     "repositoryUrl": "https://github.com/xuqian13/autonomous_planning_plugin"
-  }
+  },
+  {
+    "id": "saberlights.smart_segmentation_plugin",
+    "repositoryUrl": "https://github.com/saberlights/smart_segmentation_plugin"
+  } 
 ]
 
 
