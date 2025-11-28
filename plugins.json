@@ -286,6 +286,10 @@
   {
     "id": "SkillfulPainter.reminder_plugin",
     "repositoryUrl": "https://github.com/SkillfulPainter/reminder_plugin"
+  },
+  {
+    "id": "Hug_Yo.weather_query_plugin",
+    "repositoryUrl": "https://github.com/Hug-Yo/weather_query_plugin"
   }
 ]
 
