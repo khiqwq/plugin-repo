@@ -282,7 +282,11 @@
   {
     "id": "saberlights.smart_segmentation_plugin",
     "repositoryUrl": "https://github.com/saberlights/smart_segmentation_plugin"
-  } 
+  },
+  {
+    "id": "SkillfulPainter.reminder_plugin",
+    "repositoryUrl": "https://github.com/SkillfulPainter/reminder_plugin"
+  }
 ]
 
 
