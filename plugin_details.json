@@ -4119,5 +4119,33 @@
         }
       }
     }
+  },
+  {
+    "id": "Hug_Yo.weather_query_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "简单天气查询插件",
+      "version": "1.0.0",
+      "description": "支持查询指定城市(中国大陆)的实时天气和预报天气",
+      "author": {
+        "name": "Hug_Yo",
+        "url": "https://github.com/Hug-Yo"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.11.3"
+      },
+      "homepage_url": "https://github.com/Hug-Yo/weather_query_plugin",
+      "repository_url": "https://github.com/Hug-Yo/weather_query_plugin",
+      "keywords": [
+        "天气",
+        "天气预报",
+        "查询天气"
+      ],
+      "categories": [
+        "实用工具",
+        "查询工具"
+      ]
+    }
   }
 ]
