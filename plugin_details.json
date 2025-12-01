@@ -1670,7 +1670,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "沉默插件",
-      "version": "1.4.8",
+      "version": "1.5.0",
       "description": "使麦麦更人性化地保持沉默",
       "author": {
         "name": "A肆零西烛",
@@ -1679,7 +1679,7 @@
       "license": "GPL-v3.0-or-later",
       "host_application": {
         "min_version": "0.9.1",
-        "max_version": "0.11.1"
+        "max_version": "0.11.6"
       },
       "keywords": [
         "silence"
@@ -4107,9 +4107,9 @@
           "config_schema": {
             "plugin": {
               "name": "reminder_plugin",
-              "version": "1.0.0",
+              "version": "1.0.2",
               "enabled": true,
-              "config_version": "1.0"
+              "config_version": "1.1"
             },
             "components": {
               "action_set_reminder_enable": true,
@@ -4145,6 +4145,90 @@
       "categories": [
         "实用工具",
         "查询工具"
+      ]
+    }
+  },
+  {
+    "id": "Kmaj.expenses_summary",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "麦晨风财务总结插件(Expenses Summary)",
+      "version": "1.0.0",
+      "description": "生成今日财务总结，让麦晨风成为你的财务小助手。",
+      "author": {
+        "name": "Kmaj",
+        "url": "https://github.com/Kmaj1st"
+      },
+      "license": "GPL-v3.0-or-later",
+      "host_application": {
+        "min_version": "0.11.5"
+      },
+      "homepage_url": "https://github.com/Kmaj1st/expenses_summary",
+      "repository_url": "https://github.com/Kmaj1st/expenses_summary",
+      "keywords": [
+        "Expenses",
+        "Summary",
+        "Costs",
+        "Finance"
+      ],
+      "categories": [
+        "Summary",
+        "Expenses",
+        "Costs",
+        "HuChenFeng",
+        "Message"
+      ],
+      "default_locale": "zh-CN",
+      "locales_path": "_locales",
+      "plugin_info": {
+        "is_built_in": false,
+        "plugin_type": "general",
+        "components": [
+          {
+            "type": "action",
+            "name": "generate_expenses_summary",
+            "description": "生成今日财务总结"
+          },
+          {
+            "type": "command",
+            "name": "expenses",
+            "description": "生成今日财务总结",
+            "pattern": "/expenses"
+          }
+        ],
+        "features": [
+          "生成今日财务总结"
+        ]
+      }
+    }
+  },
+  {
+    "id": "Hug_Yo.wife_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "抽群老婆插件",
+      "version": "1.0.0",
+      "description": "可以在群聊中选择一位幸运群u做群老婆~",
+      "author": {
+        "name": "Hug_Yo",
+        "url": "https://github.com/Hug-Yo"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.11.3"
+      },
+      "homepage_url": "https://github.com/Hug-Yo/wife_plugin",
+      "repository_url": "https://github.com/Hug-Yo/wife_plugin",
+      "keywords": [
+        "娱乐",
+        "抽奖",
+        "群老婆",
+        "抽老婆"
+      ],
+      "categories": [
+        "娱乐工具",
+        "娱乐",
+        "抽奖工具"
       ]
     }
   }
