@@ -298,6 +298,10 @@
   {
     "id": "Hug_Yo.wife_plugin",
     "repositoryUrl": "https://github.com/Hug-Yo/wife_plugin"
+  },
+  {
+    "id": "CharTyr.MaiBot_MCPBridgePlugin",
+    "repositoryUrl": "https://github.com/CharTyr/MaiBot_MCPBridgePlugin"
   }
 ]
 
