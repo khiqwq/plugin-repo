@@ -4271,5 +4271,31 @@
       },
       "id": "MaiBot Community.MCPBridgePlugin"
     }
+  },
+  {
+    "id": "heitiehu-beep.impression_affection_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "印象和好感度系统插件",
+      "version": "2.1.0",
+      "description": "为麦麦添加动态印象和好感度系统，LLM生成自然语言印象、使用独立的数据库",
+      "author": {
+        "name": "heitiehu-beep",
+        "url": "https://github.com/heitiehu-beep"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.11.0"
+      },
+      "repository_url": "https://github.com/heitiehu-beep/impression_affection_plugin",
+      "keywords": [
+        "记忆系统",
+        "好感度",
+        "印象"
+      ],
+      "categories": [
+        "Entertainment & Interaction"
+      ]
+    }
   }
 ]
