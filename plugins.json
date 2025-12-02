@@ -292,6 +292,18 @@
     "repositoryUrl": "https://github.com/Hug-Yo/weather_query_plugin"
   },
   {
+    "id": "Kmaj.expenses_summary",
+    "repositoryUrl": "https://github.com/Kmaj1st/expenses_summary"
+  },
+  {
+    "id": "Hug_Yo.wife_plugin",
+    "repositoryUrl": "https://github.com/Hug-Yo/wife_plugin"
+  },
+  {
+    "id": "CharTyr.MaiBot_MCPBridgePlugin",
+    "repositoryUrl": "https://github.com/CharTyr/MaiBot_MCPBridgePlugin"
+  },
+  {
     "id": "heitiehu-beep.impression_affection_plugin",
     "repositoryUrl": "https://github.com/heitiehu-beep/impression_affection_plugin"
   }
