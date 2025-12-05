@@ -4163,6 +4163,34 @@
     }
   },
   {
+    "id": "Hug_Yo.weather_query_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "简单天气查询插件",
+      "version": "1.0.0",
+      "description": "支持查询指定城市(中国大陆)的实时天气和预报天气",
+      "author": {
+        "name": "Hug_Yo",
+        "url": "https://github.com/Hug-Yo"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.11.3"
+      },
+      "homepage_url": "https://github.com/Hug-Yo/weather_query_plugin",
+      "repository_url": "https://github.com/Hug-Yo/weather_query_plugin",
+      "keywords": [
+        "天气",
+        "天气预报",
+        "查询天气"
+      ],
+      "categories": [
+        "实用工具",
+        "查询工具"
+      ]
+    }
+  },
+  {
     "id": "Kmaj.expenses_summary",
     "manifest": {
       "manifest_version": 1,
@@ -4314,7 +4342,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "印象和好感度系统插件",
-      "version": "2.2.0",
+      "version": "2.2.5",
       "description": "为麦麦添加动态印象和好感度系统，LLM生成自然语言印象和动态好感度更新，使用独立的impression_affection_data.db数据库",
       "author": {
         "name": "heitiehu-beep",
