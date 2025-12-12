@@ -2779,7 +2779,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "Gemini 绘图",
-      "version": "1.2.5",
+      "version": "1.2.6",
       "description": "使用 Google Gemini API或着其他第三方平台提供的绘图服务，根据图片和提示词生成新图片。",
       "author": {
         "name": "sakura桜花",
@@ -4362,6 +4362,34 @@
       "categories": [
         "Entertainment & Interaction"
       ]
+    }
+  },
+  {
+    "id": "HyperSharkawa.poke_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "戳一戳插件",
+      "version": "1.0.1",
+      "description": "使麦麦能对被戳做出回应，同时给麦麦增加主动戳别人的能力",
+      "author": {
+        "name": "鲨鱼",
+        "url": "https://github.com/HyperSharkawa"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.11.0"
+      },
+      "homepage_url": "https://github.com/HyperSharkawa/poke_plugin",
+      "repository_url": "https://github.com/HyperSharkawa/poke_plugin",
+      "keywords": [
+        "poke",
+        "interactive"
+      ],
+      "categories": [
+        "Entertainment & Interaction"
+      ],
+      "default_locale": "CN",
+      "locales_path": "_locales"
     }
   }
 ]
