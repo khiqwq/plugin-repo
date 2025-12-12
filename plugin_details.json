@@ -4391,5 +4391,51 @@
       "default_locale": "CN",
       "locales_path": "_locales"
     }
+  },
+  {
+    "id": "pulsarmatrix.servercmd_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "服务器指令发送插件",
+      "version": "0.1.0",
+      "description": "通过bot发送服务器指令的插件",
+      "author": {
+        "name": "Maclerc",
+        "url": "https://github.com/pulsarmatrix"
+      },
+      "license": "MIT",
+      "host_application": {
+        "min_version": "0.11.0"
+      },
+      "keywords": [
+        "server",
+        "command",
+        "remote-ssh"
+      ],
+      "categories": [
+        "Utility Tools"
+      ],
+      "homepage_url": "https://github.com/pulsarmatrix",
+      "repository_url": "https://github.com/pulsarmatrix/servercmd_plugin",
+      "default_locale": "zh-CN",
+      "locales_path": "_locales",
+      "id": "pulsarmatrix.servercmd_plugin",
+      "plugin_info": {
+        "is_built_in": false,
+        "plugin_type": "general",
+        "components": [
+          {
+            "type": "command",
+            "name": "server",
+            "description": "在服务器终端中输入完整命令"
+          },
+          {
+            "type": "command",
+            "name": "tmux",
+            "description": "在tmux中输入命令"
+          }
+        ]
+      }
+    }
   }
 ]
