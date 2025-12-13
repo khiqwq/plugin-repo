@@ -1772,7 +1772,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "麦麦发B站视频",
-      "version": "1.0.7",
+      "version": "1.1.0",
       "description": "让麦麦解析b站视频链接并发送，群聊私聊都可用",
       "author": {
         "name": "XinxInxiN0",
@@ -1804,7 +1804,8 @@
           "发送视频文件",
           "支持b23.tv短链"
         ]
-      }
+      },
+      "id": "XinxInxiN0.bilibili_video_sender_plugin"
     }
   },
   {
@@ -2779,7 +2780,7 @@
     "manifest": {
       "manifest_version": 1,
       "name": "Gemini 绘图",
-      "version": "1.2.6",
+      "version": "1.2.8",
       "description": "使用 Google Gemini API或着其他第三方平台提供的绘图服务，根据图片和提示词生成新图片。",
       "author": {
         "name": "sakura桜花",
@@ -4436,6 +4437,61 @@
           }
         ]
       }
+    }
+  },
+  {
+    "id": "Rabbit-Jia-Er.mai_clinic_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "麦诊所游戏插件（mai_clinic_plugin）",
+      "version": "2.0.1",
+      "description": "MaiBot 看病游戏插件。你当医生，麦麦当病人，通过问诊找出病因。支持体格检查、辅助检查、成就系统。",
+      "author": {
+        "name": "Rabbit-Jia-Er",
+        "url": "https://github.com/Rabbit-Jia-Er/mai_clinic_plugin"
+      },
+      "license": "GPL-v3.0-or-later",
+      "host_application": {
+        "min_version": "0.11.6"
+      },
+      "homepage_url": "https://github.com/Rabbit-Jia-Er/mai_clinic_plugin",
+      "repository_url": "https://github.com/Rabbit-Jia-Er/mai_clinic_plugin",
+      "keywords": [
+        "game",
+        "medical",
+        "diagnosis",
+        "clinic",
+        "doctor"
+      ],
+      "categories": [
+        "game",
+        "entertainment"
+      ],
+      "default_locale": "zh-CN",
+      "plugin_info": {
+        "is_built_in": false,
+        "plugin_type": "game",
+        "components": [
+          {
+            "type": "event_handler",
+            "name": "clinic_event_handler",
+            "description": "麦诊所游戏处理器"
+          },
+          {
+            "type": "command",
+            "name": "clinic_admin",
+            "description": "麦诊所管理命令 /zs"
+          }
+        ],
+        "features": [
+          "动态病情生成",
+          "体格检查",
+          "辅助检查",
+          "成就系统",
+          "数据持久化"
+        ]
+      },
+      "id": "Rabbit-Jia-Er.mai_clinic_plugin"
     }
   }
 ]
