@@ -314,5 +314,9 @@
   {
     "id": "pulsarmatrix.servercmd_plugin",
     "repositoryUrl":"https://github.com/pulsarmatrix/servercmd_plugin"
+  },
+  {
+    "id": "Rabbit-Jia-Er.mai_clinic_plugin",
+    "repositoryUrl": "https://github.com/Rabbit-Jia-Er/mai_clinic_plugin"
   }
 ]
